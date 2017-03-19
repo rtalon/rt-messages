@@ -1,5 +1,5 @@
 {
-  "name": "rt-messages",
+	"name": "rt-messages",
   "authors": [
     "Romain Talon <romain.talon@gmail.com>"
   ],
@@ -14,7 +14,7 @@
     "test",
     "tests"
   ],
-	"dependencies": [
+	"dependencies": {
 		"angular": "^1.4"
-	]
+	}
 }
