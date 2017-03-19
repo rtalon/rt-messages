@@ -1,0 +1,8 @@
+<div class="rt-messages">
+    <div class="rt-message"
+         ng-class="rtMessage.class"
+         ng-repeat="rtMessage in rtMessages">
+        {{ rtMessage.content }}
+        <i class="glyphicon glyphicon-remove" ng-click="removeMessage(rtMessage)"></i>
+    </div>
+</div>
